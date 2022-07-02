@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0 20px;
+}
+
+.btn-azul {
+  background-color: #018fca;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-azul:hover {
+  background-color: #00aaf2;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.btn-laranja {
+  background-color: #d68700;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-laranja:hover {
+  background-color: #ffa200;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
