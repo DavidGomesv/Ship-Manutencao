@@ -12,7 +12,9 @@
   </head>
   <body>
     <header>
+      <!--
       <div class="container-header">
+        
         <div class="logo-header">
           <img src="assets/logo.png" alt="Logo da Ship Manutenção" />
         </div>
@@ -31,60 +33,61 @@
           <a href="">Contato</a>
         </div>
       </div>
+      -->
+      <nav>
+        <a class="logo" href="/">Ship Manutenção</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="btn-wpp">
+              <i class="fa-brands fa-whatsapp"></i>
+              Whatsapp
+            </a>
+          </li>
+          <li><a class="navegacao" href="#">Início</a></li>
+          <li><a class="navegacao" href="#">Sobre</a></li>
+          <li><a class="navegacao" href="#">Projetos</a></li>
+          <li><a class="navegacao" href="#">Contato</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <!-- #carrosel -->
-      <section class="conteudo">
-        <div class="carrossel">
-          <div class="carrosel-imagens">
-            <img src="assets/navio-plataforma.jpeg" alt="" />
+      <div class="carrossel">
+        <div class="carrosel-imagens">
+          <img src="assets/navio-plataforma.jpeg" alt="" />
+        </div>
+
+        <div class="apresentacao-inicial">
+          <div class="titulo">
+            <h1>
+              Produtos e Serviços de Alta Qualidade para Maximizar sua Operação
+            </h1>
           </div>
 
-          <div class="apresentacao-inicial">
-            <div class="titulo">
-              <h1>
-                Produtos e Serviços de Alta Qualidade para Maximizar sua
-                Operação
-              </h1>
+          <div class="container-icones">
+            <div class="icones">
+              <i class="fa-solid fa-handshake"></i>
+              <p>Marcas Confiáveis</p>
             </div>
 
-            <div class="container-icones">
-              <div class="icones">
-                <i class="fa-solid fa-handshake"></i>
-                <p>Marcas Confiáveis</p>
-              </div>
+            <div class="icones">
+              <i class="fa-solid fa-stopwatch"></i>
+              <p>Prazos em dia</p>
+            </div>
 
-              <div class="icones">
-                <i class="fa-solid fa-stopwatch"></i>
-                <p>Prazos em dia</p>
-              </div>
-
-              <div class="icones">
-                <i class="fa-solid fa-people-group"></i>
-                <p>Profissionais Qualificados</p>
-              </div>
+            <div class="icones">
+              <i class="fa-solid fa-people-group"></i>
+              <p>Profissionais Qualificados</p>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="contato">
-        <div><p>Contate-nos</p></div>
-        <div class="container-email">
-          <button class="btn-laranja">
-            <i class="fa-solid fa-map-location-dot"></i>Localização
-          </button>
-          <input type="text" placeholder="examplo@email.com" />
-
-          <button class="btn-laranja">
-            <i class="fa-solid fa-paper-plane"></i>
-            Enviar
-          </button>
-        </div>
-        <div><p>Enviaremos um email para você</p></div>
-      </section>
-
+      </div>
       <!-- #endcarrosel -->
 
       <!-- #region serviços-->
@@ -95,7 +98,7 @@
         </div>
 
         <div class="descricao1">
-          <h2>
+          <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
             magni vero veritatis totam beatae molestias sit, doloribus ratione
             est corporis amet et perferendis modi quae! Quas quod perspiciatis
@@ -103,15 +106,6 @@
             elit. Eum exercitationem temporibus dolorem possimus fugit magnam
             officiis reprehenderit? Repellendus accusamus repellat velit odit
             sunt? Consectetur quis nisi corporis officia fugit delectus.
-          </h2>
-        </div>
-
-        <div class="descricao2">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-            sunt mollitia ex ab atque. Amet quos quia fugit eum odio officiis
-            harum, at deleniti! Perferendis explicabo doloribus amet adipisci
-            esse?
           </p>
         </div>
 
@@ -131,12 +125,52 @@
         </div>
       </section>
 
+      <section class="contato">
+        <div><p>Contate-nos</p></div>
+        <div class="container-email">
+          <button class="btn-laranja">
+            <i class="fa-solid fa-map-location-dot"></i>Localização
+          </button>
+          <input type="text" placeholder="examplo@email.com" />
+
+          <button class="btn-laranja">
+            <i class="fa-solid fa-paper-plane"></i>
+            Enviar
+          </button>
+        </div>
+        <div><p>Enviaremos um email para você</p></div>
+      </section>
+
       <!-- #endregion  serviços-->
     </main>
+
+    <footer>
+      <div class="container-redesSociais">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+
+      <div class="container-linksContato">
+        <div class="links">
+          <a href="">Início</a>
+          <a href="">Projetos</a>
+          <a href="">Sobre</a>
+          <a href="">Contato</a>
+        </div>
+
+        <div class="email">
+          <input type="text" placeholder="exemplo@email.com" />
+          <input type="text" placeholder="Mensagem" />
+          <button class="btn-laranja">Enviar</button>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/7cd8be25b7.js"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts/mobile-navbar.js"></script>
   </body>
 </html>
